@@ -4,7 +4,7 @@
 #
 Name     : gtk-xfce-engine
 Version  : 3.2.0
-Release  : 3
+Release  : 4
 URL      : http://archive.xfce.org/src/xfce/gtk-xfce-engine/3.2/gtk-xfce-engine-3.2.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/gtk-xfce-engine/3.2/gtk-xfce-engine-3.2.0.tar.bz2
 Summary  : No detailed summary available
