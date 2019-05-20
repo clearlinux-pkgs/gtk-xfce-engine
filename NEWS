@@ -1,0 +1,95 @@
+3.2.0
+=====
+- Add new theme Xfce-flat
+- Fix invalid free on theme parse error
+
+3.1.0
+=====
+- Added default colors to xfce basic theme
+- Fix uninitialized value (bug #10877)
+- Support trough-side-details
+- Added flat_border and focus_color style properties
+- More rendering improvements
+- Gtk+-3 support has been stopped
+
+3.0.1
+=====
+- Don't leak a graduent pattern at each draw (bug #8521).
+- Default themes don't support Gtk+-3.4.
+
+3.0.0
+=====
+- Added px for border sizes.
+- Corrected DETAIL names.
+- Use the correct colors for options and checks.
+- More consistent extension rendering.
+- Corrected class matching and alignments.
+- Require Gtk 3.2.
+- Tuned default theme for Gtk 3.2.
+- Added Gtk 3.4 support to the engine.
+- Default themes don't support Gtk+-3.4.
+
+2.99.3
+======
+- Link against libm for floor() and ceil().
+- Reduce GtkComboBox padding (bug #8455).
+
+2.99.2
+======
+- Improved menu theming
+- Theme gtk-tooltip (bug #8494).
+- Scale radio and check boxes (bug #8456).
+- Draw inset border around default button (bug #8454).
+
+2.99.1
+======
+- Changed rendering of GtkSpinButton.
+- Pixel align checkboxes in the Gtk+-3.0 engine.
+- Link against libm (bug #6253).
+
+2.99.0
+======
+- Added Gtk+-3.0 theming engine.
+
+2.9.0
+=====
+- Changed drawing routines to use cairo.
+
+2.8.1
+=====
+- Fix rendering of GtkSpinButton (bug #4946)
+- Fix rendering of inconsistent checkboxes (bug #7279)
+
+2.8.0
+=====
+- Re-add Xfce 4.6's gtkrc theme as Xfce-4.6 (bug #7061).
+
+2.7.0
+=====
+- Cleanup build files.
+- Small visual update for xfce 4.8, active window decoration color.
+- Fix gtkrc warning (bug #5985).
+
+2.6.0
+=======
+- Much compact version of the default theme.
+
+2.5.99.1
+========
+- Update WM colors to match the new xfwm4 decoration theme
+
+2.5.92
+======
+- Fix bg color being shown under group box title (Bug #1018)
+- Remove README.html files (Bug #3280)
+
+2.4.0
+=====
+- Several improvements to the default theme.
+- Change the engine so that scrollbars show the trough border. 
+
+
+2.2.5
+=====
+- Completely new default theme.
+- Improved drawing of control elements to enhance usability.
