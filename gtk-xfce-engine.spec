@@ -4,10 +4,10 @@
 #
 Name     : gtk-xfce-engine
 Version  : 3.2.0
-Release  : 11
-URL      : http://archive.xfce.org/src/xfce/gtk-xfce-engine/3.2/gtk-xfce-engine-3.2.0.tar.bz2
-Source0  : http://archive.xfce.org/src/xfce/gtk-xfce-engine/3.2/gtk-xfce-engine-3.2.0.tar.bz2
-Summary  : Xfce Gtk+-2.0 engine and themes
+Release  : 12
+URL      : https://archive.xfce.org/src/archive/gtk-xfce-engine/3.2/gtk-xfce-engine-3.2.0.tar.bz2
+Source0  : https://archive.xfce.org/src/archive/gtk-xfce-engine/3.2/gtk-xfce-engine-3.2.0.tar.bz2
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
 Requires: gtk-xfce-engine-data = %{version}-%{release}
@@ -58,7 +58,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1558341411
+export SOURCE_DATE_EPOCH=1562017937
+export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
 export FFLAGS="$CFLAGS -fno-lto "
@@ -74,7 +75,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1558341411
+export SOURCE_DATE_EPOCH=1562017937
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/gtk-xfce-engine
 cp COPYING %{buildroot}/usr/share/package-licenses/gtk-xfce-engine/COPYING
